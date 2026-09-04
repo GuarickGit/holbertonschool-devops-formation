@@ -7,3 +7,8 @@ and blameless post-mortems.
 ## Contributors
 
 This project is maintained by Guarick and Akuseru.
+
+## Liens GitHub
+
+- https://github.com/GuarickGit
+- https://github.com/Hinoto-LH
