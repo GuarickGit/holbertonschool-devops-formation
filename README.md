@@ -1,3 +1,5 @@
 ## About this project
 
-This project explores DevOps culture, Git collaboration and team workflows.
+This project explores DevOps culture and Git collaboration best practices,
+including CALMS, DORA metrics, Pull Request workflows, conventional commits,
+and blameless post-mortems.
