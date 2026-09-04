@@ -6,4 +6,4 @@ and blameless post-mortems.
 
 ## Contributors
 
-This project is maintained by Guarick and Akuselu.
+This project is maintained by Guarick and Akuseru.
