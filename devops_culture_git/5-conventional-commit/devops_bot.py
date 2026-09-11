@@ -3,6 +3,10 @@
 
 
 def bot_status(name, energy):
+    if energy > 100:
+        energy = 100
+    elif energy < 0:
+        energy = 0
     return f"{name} is online with {energy}% energy"
 
 
@@ -12,4 +16,5 @@ def deploy():
 
 if __name__ == "__main__":
     print(bot_status("HolbieBot", 100))
+    print(bot_status("HolbieBot", -20))
     deploy()
