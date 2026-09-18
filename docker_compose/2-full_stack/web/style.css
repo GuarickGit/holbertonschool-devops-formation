@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1b2a;
+  color: #e0e1dd;
+  margin: 0;
+  padding: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  color: #7dd3fc;
+}
+
+#materia-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.materia-card {
+  background: #1b263b;
+  border: 1px solid #415a77;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.materia-card h2 {
+  margin: 0 0 0.5rem;
+  color: #ffd60a;
+}
+
+.materia-card .type {
+  font-size: 0.8rem;
+  color: #778da9;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.materia-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.materia-card.type-magic {
+  border-left: 4px solid #4ade80;
+}
+
+.materia-card.type-magic .type {
+  color: #4ade80;
+}
+
+.materia-card.type-support {
+  border-left: 4px solid #60a5fa;
+}
+
+.materia-card.type-support .type {
+  color: #60a5fa;
+}
+
+.materia-card.type-independent {
+  border-left: 4px solid #fde047;
+}
+
+.materia-card.type-independent .type {
+  color: #fde047;
+}
